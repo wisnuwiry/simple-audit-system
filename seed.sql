@@ -1,8 +1,8 @@
 -- Seed Users
 INSERT INTO users (email, password, role, name, avatar) VALUES
-('auditor@example.com', 'rahasia123', 'auditor', 'Auditor One', 'https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?q=80&w=100&h=100&fit=crop&crop=entropy&auto=format'),
-('staff@example.com', 'rahasia123', 'staff', 'Staff One', 'https://images.unsplash.com/photo-1641700548878-adb8c33fc5ed?q=80&w=100&h=100&fit=crop&crop=entropy&auto=format'),
-('manager@example.com', 'rahasia123', 'manajer', 'Manager One', 'https://images.unsplash.com/photo-1631848252998-6d4dc0bebaf6?q=80&w=100&h=100&fit=crop&crop=entropy&auto=format');
+('auditor@example.com', '$2y$10$7WDrUr6xZBz.Dz1GGvrm1uC5PWH.T.so/eGkz47n7Vodr1Tx9QCN.', 'auditor', 'Auditor One', 'https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?q=80&w=100&h=100&fit=crop&crop=entropy&auto=format'),
+('staff@example.com', '$2y$10$7WDrUr6xZBz.Dz1GGvrm1uC5PWH.T.so/eGkz47n7Vodr1Tx9QCN.', 'staff', 'Staff One', 'https://images.unsplash.com/photo-1641700548878-adb8c33fc5ed?q=80&w=100&h=100&fit=crop&crop=entropy&auto=format'),
+('manager@example.com', '$2y$10$7WDrUr6xZBz.Dz1GGvrm1uC5PWH.T.so/eGkz47n7Vodr1Tx9QCN.', 'manajer', 'Manager One', 'https://images.unsplash.com/photo-1631848252998-6d4dc0bebaf6?q=80&w=100&h=100&fit=crop&crop=entropy&auto=format');
 
 -- Seed Modules
 INSERT INTO modules (name, description) VALUES
