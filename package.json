@@ -14,5 +14,13 @@
     "flowbite": "^2.5.2",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "@tiptap/core": "^2.10.4",
+    "@tiptap/pm": "^2.10.4",
+    "@tiptap/starter-kit": "^2.10.4"
+  },
+  "overrides": {
+    "prosemirror-model": "1.19.3"
   }
 }
